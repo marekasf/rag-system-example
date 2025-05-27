@@ -1,0 +1,117 @@
+{
+  "evaluation_timestamp": 1747872110.32891,
+  "total_questions": 5,
+  "individual_results": [
+    {
+      "question": "When was the most recent earnings call?",
+      "total_evaluation_time": 0.4151580333709717,
+      "retrieval_metrics": {
+        "query": "When was the most recent earnings call?",
+        "num_retrieved": 3,
+        "retrieval_time_seconds": 0.407459020614624,
+        "documents_found": true,
+        "relevance_ratio": 1.0,
+        "avg_doc_length": 5664.0
+      },
+      "response_metrics": {
+        "query": "When was the most recent earnings call?",
+        "response_length": 541,
+        "response_not_empty": true,
+        "query_term_coverage": 0.2,
+        "grounding_ratio": 1.0
+      },
+      "sample_response": "Based on the earnings call documents: Salesforce (Q4 FY23 Earnings) March 01, 2023 Corporate Speakers: • Michael Spencer; Salesforce; EVP, IR • Marc Benioff; Salesforce; Co-founder, Chairman & CEO • B..."
+    },
+    {
+      "question": "What are the risks that Salesforce has faced, and how have they changed over time?",
+      "total_evaluation_time": 0.0459747314453125,
+      "retrieval_metrics": {
+        "query": "What are the risks that Salesforce has faced, and how have they changed over time?",
+        "num_retrieved": 3,
+        "retrieval_time_seconds": 0.03884100914001465,
+        "documents_found": true,
+        "relevance_ratio": 1.0,
+        "avg_doc_length": 5647.666666666667
+      },
+      "response_metrics": {
+        "query": "What are the risks that Salesforce has faced, and how have they changed over time?",
+        "response_length": 541,
+        "response_not_empty": true,
+        "query_term_coverage": 0.3,
+        "grounding_ratio": 0.75
+      },
+      "sample_response": "Based on the earnings call documents:  the first quarter, we might not have achieved exactly everything we wanted because we had too much disruption, but by the fourth quarter, we over delivered. So t..."
+    },
+    {
+      "question": "Can you summarize Salesforce's strategy at the beginning of 2023?",
+      "total_evaluation_time": 0.04197406768798828,
+      "retrieval_metrics": {
+        "query": "Can you summarize Salesforce's strategy at the beginning of 2023?",
+        "num_retrieved": 3,
+        "retrieval_time_seconds": 0.03536820411682129,
+        "documents_found": true,
+        "relevance_ratio": 1.0,
+        "avg_doc_length": 5787.333333333333
+      },
+      "response_metrics": {
+        "query": "Can you summarize Salesforce's strategy at the beginning of 2023?",
+        "response_length": 541,
+        "response_not_empty": true,
+        "query_term_coverage": 0.0,
+        "grounding_ratio": 1.0
+      },
+      "sample_response": "Based on the earnings call documents:  going into next year. Marc, the question is for you. I think this is obviously a new chapter for Salesforce. You're back as sole CEO. I think I get a lot of ques..."
+    },
+    {
+      "question": "How many earnings call documents do you have indexed?",
+      "total_evaluation_time": 0.3002181053161621,
+      "retrieval_metrics": {
+        "query": "How many earnings call documents do you have indexed?",
+        "num_retrieved": 3,
+        "retrieval_time_seconds": 0.2933948040008545,
+        "documents_found": true,
+        "relevance_ratio": 1.0,
+        "avg_doc_length": 5775.666666666667
+      },
+      "response_metrics": {
+        "query": "How many earnings call documents do you have indexed?",
+        "response_length": 541,
+        "response_not_empty": true,
+        "query_term_coverage": 0.3333333333333333,
+        "grounding_ratio": 1.0
+      },
+      "sample_response": "Based on the earnings call documents:  This includes ongoing headwinds from professional services. For Q2, we expect GAAP EPS of $1.31 to $1.33 and non-GAAP EPS of $2.34 to $2.36. In closing, I want t..."
+    },
+    {
+      "question": "How many pages are in the most recent earnings call?",
+      "total_evaluation_time": 0.30457305908203125,
+      "retrieval_metrics": {
+        "query": "How many pages are in the most recent earnings call?",
+        "num_retrieved": 3,
+        "retrieval_time_seconds": 0.2967557907104492,
+        "documents_found": true,
+        "relevance_ratio": 1.0,
+        "avg_doc_length": 4588.333333333333
+      },
+      "response_metrics": {
+        "query": "How many pages are in the most recent earnings call?",
+        "response_length": 541,
+        "response_not_empty": true,
+        "query_term_coverage": 0.16666666666666666,
+        "grounding_ratio": 1.0
+      },
+      "sample_response": "Based on the earnings call documents:  This includes ongoing headwinds from professional services. For Q2, we expect GAAP EPS of $1.31 to $1.33 and non-GAAP EPS of $2.34 to $2.36. In closing, I want t..."
+    }
+  ],
+  "aggregate_metrics": {
+    "avg_retrieval_time": 0.21436376571655275,
+    "avg_relevance_ratio": 1.0,
+    "documents_found_percentage": 100.0,
+    "avg_response_length": 541.0,
+    "avg_term_coverage": 0.19999999999999998,
+    "avg_grounding_ratio": 0.95,
+    "total_questions_evaluated": 5,
+    "questions_with_responses": 5
+  },
+  "evaluation_timestamp_readable": "2025-05-22 02:01:50"
+}
